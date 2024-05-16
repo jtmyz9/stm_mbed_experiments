@@ -7,3 +7,5 @@ BUILD
 .cache
 compile_commands.json
 mbed-os
+.vscode
+*build*
