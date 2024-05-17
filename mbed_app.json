@@ -1,0 +1,29 @@
+{
+    "config": {
+        "param1": {
+            "help": "The first configuration parameter",
+            "macro_name": "CUSTOM_MACRO_NAME",
+            "value": 0
+        },
+        "param2": {
+            "help": "The second configuration parameter",
+            "required": true
+        },
+        "param3": {
+            "help": "The third configuration parameter",
+            "value_min": 0,
+            "value_max": 10,
+            "value": 5
+        },
+        "param4": {
+            "help": "The fourth configuration parameter",
+            "accepted_values": ["test1", "test2", "0x1000"],
+            "value": "test2"
+        },
+        "param5": {
+            "help": "The fifth configuration parameter",
+            "value": null
+        },
+        "param6": 10
+    }
+}
